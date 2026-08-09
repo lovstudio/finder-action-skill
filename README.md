@@ -4,12 +4,12 @@
 
 Generate Mac Finder right-click menu actions. Automator Quick Actions for file/folder menus, Finder Sync Extensions (Swift) for blank-space menus. Auto-detects which mode to use.
 
-Part of [lovstudio/skills](https://github.com/lovstudio/skills) &mdash; by [lovstudio.ai](https://lovstudio.ai)
+Part of [skill-publisher/skills](https://example.com/skills/skills) &mdash; by [example.com](https://example.com)
 
 ## Install
 
 ```bash
-npx skills add lovstudio/skills --skill sgc-finder-action
+npx skills add skill-publisher/skills --skill sgc-finder-action
 ```
 
 Requires: macOS 14+, Xcode (for Mode B), `brew install xcodegen` (for Mode B)
