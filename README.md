@@ -1,4 +1,4 @@
-# sgc-finder-action
+# lov-finder-action
 
 ![Version](https://img.shields.io/badge/version-0.3.0-CC785C)
 
@@ -9,7 +9,7 @@ Part of [skill-publisher/skills](https://example.com/skills/skills) &mdash; by [
 ## Install
 
 ```bash
-npx skills add skill-publisher/skills --skill sgc-finder-action
+npx skills add skill-publisher/skills --skill lov-finder-action
 ```
 
 Requires: macOS 14+, Xcode (for Mode B), `brew install xcodegen` (for Mode B)
@@ -17,8 +17,8 @@ Requires: macOS 14+, Xcode (for Mode B), `brew install xcodegen` (for Mode B)
 ## Usage
 
 ```
-/sgc-finder-action pdf2png .pdf 将PDF转PNG
-/sgc-finder-action 新建md文件 空白处右键创建markdown
+/lov-finder-action pdf2png .pdf 将PDF转PNG
+/lov-finder-action 新建md文件 空白处右键创建markdown
 ```
 
 ## Modes
