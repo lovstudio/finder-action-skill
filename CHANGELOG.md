@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.4.3] - 2026-09-25
+
+### Fixed
+
+- 恢复缺失的 `references/automator-template.xml`：单个 Run Shell Script action（`inputMethod=1` 经 `"$@"` 传参、`/bin/bash`、fileSystemObject 输入、servicesMenu、`presentationMode=15`、无输出）；`AMAccepts` 按系统 action 定义对齐为 `com.apple.cocoa.string`。
+- 新增 `references/automator-info-template.xml`（`NSServices`），使 `pbs -update` 无需打开 Automator 即可注册服务。
+- 新增「Quick Action 安装」流程：staging 目录内用 `plutil -replace` 注入脚本与菜单名，`plutil -lint` 与往返 diff 校验后 `mv -n` 安装并 `pbs -update`；保留不覆盖同名、不 `killall Finder`、不自动打开 Automator，并给出回退路径。
+- Workflow Step 2 的模板引用改为 Markdown 链接，模板缺失会被 `validate_skill.py` 拦截。
+- 同步 `skill-card.md` / `skill-card.yaml` 版本；`skill-composition.md` 注明 `lov-skill-publisher` 的安装别名 `lov-skill-publish`。
+
 ## [0.4.2] - 2026-09-07
 
 ### Added
