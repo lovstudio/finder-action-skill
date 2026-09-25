@@ -11,7 +11,7 @@ depends_on:
 - lov-branding-consistency
 metadata:
   author: contributors
-  version: 0.4.1
+  version: 0.4.2
   tags:
   - macos
   - finder
@@ -23,7 +23,7 @@ metadata:
   card_standard: lovstudio/skill-card/v1
 ---
 
-# Finder 右键动作
+# Finder 快捷动作 · Finder Actions
 
 创建 macOS Finder 文件快捷操作或目录背景菜单扩展。
 
