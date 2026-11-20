@@ -1,13 +1,13 @@
 # Finder 快捷动作 · Finder Actions
 
-![Version](https://img.shields.io/badge/version-0.4.4-CC785C)
+![Version](https://img.shields.io/badge/version-0.4.5-CC785C)
 
 创建 macOS Finder 文件快捷操作或目录背景菜单扩展。
 
 ## 安装
 
 ```bash
-npx skills add lov-finder-action -g -y
+npx lovstudio skills add finder-action -g -y
 ```
 
 ## 使用
